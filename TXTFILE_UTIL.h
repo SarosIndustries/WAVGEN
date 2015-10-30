@@ -10,4 +10,6 @@ typedef struct TXTFILE_DATA_NODE
 	float LENGTH;
 } TXTFILE_DATA_MASTER;
 
+TXTFILE_DATA_MASTER * parse_txtfile( char *filename );
+
 #endif
